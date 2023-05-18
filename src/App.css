@@ -1,0 +1,244 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(240, 233, 225);
+}
+
+.home{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: skyblue;
+}
+
+.nav{
+    padding: 2px;
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+    background-color: transparent;
+}
+
+@media (max-width:180px){
+    .menu{
+        flex-direction: column;
+    }
+}
+
+
+
+/* poster winner css */
+
+.posterWinner_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.title{
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.posterWinner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: aliceblue;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.posterWinner_img{
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+}
+
+.posterWinner p{
+    padding: 5px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+@media (min-width:768px){
+    .posterWinner_img{
+        width: 600px;
+        height: 600px;
+    }
+    .title{
+        width: 620px;
+    }
+}
+
+
+/* Login Css */
+
+.login_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login{
+    width: 80%;
+    height: auto;
+    min-height: 70%;
+    padding: 20px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.loginButton{
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(91, 170, 238);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.loginButton:hover{
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+.loginInput{
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.toSignIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+.toSignIn p{
+    background-color: transparent;
+}
+
+.signInNav{
+    background-color: transparent;
+    padding-left: 10px;
+}
+
+@media (min-width:768px){
+    .login{
+        width: 50%;
+        min-height: 600px;
+    }
+}
+
+
+
+/* Signin css */
+
+.Signin_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.Signin{
+    width: 80%;
+    height: auto;
+    min-height: 70%;
+    padding: 20px;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.SigninButton{
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(91, 170, 238);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.SigninButton:hover{
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+.SigninInput{
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.toLogIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+.toLogIn p{
+    background-color: transparent;
+}
+
+.loginNav{
+    background-color: transparent;
+    padding-left: 10px;
+}
+
+@media (min-width:768px){
+    .Signin{
+        width: 50%;
+        min-height: 600px;
+    }
+}

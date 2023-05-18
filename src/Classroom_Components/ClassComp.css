@@ -1,0 +1,324 @@
+/* assignment css */
+.assignment{
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.assign_work{
+    width: 90%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.assign_work_icon{
+    transform: scale(1.9);
+    padding: 2px;
+    background-color: transparent;
+}
+
+.assign_work_button{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: large;
+    text-align: left;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.assign_work_button:hover{
+    cursor: pointer;
+}
+
+.add_assign_work{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.add_assign_work input{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+
+.add_assign_work textarea{
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.add_assign_work button{
+    width: 50%;
+    height: auto;
+    background-color: rgb(162, 203, 100);
+}
+
+.add_assign_work button:hover{
+    background-color: rgb(119, 191, 11);
+    cursor: pointer;
+}
+
+.assignment_card{
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+.assignment_card_link{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    font-size: 20px;
+    border-bottom-width: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color:rgba(135, 207, 235, 0.985);
+}
+
+.assignment_card_message{
+    width: 100%;
+    height: auto;
+    max-height: 100px;
+    padding: 2% 6% 2% 6%;
+    font-size: 18px;
+    overflow:  scroll;
+    border: 1px solid wheat;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+.assignment_card_message::-webkit-scrollbar {
+    display: none;
+}
+
+.assignment_card_submittedBy{
+    width: 100%;
+    height: auto;
+    padding: 10px 7% 10px 5%;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: underline;
+    background-color: rgb(255, 255, 255);
+}
+
+.assignment_card_submittedBy:hover{
+    cursor: pointer;
+}
+
+.assignment_card_submitsolution{
+    width: 50%;
+    height: auto;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(182, 232, 112);
+}
+
+.assignment_card_submitsolution:hover{
+    cursor: pointer;
+    background-color: rgb(115, 161, 21);
+}
+
+
+/* 
+classwork css */
+
+.classwork{
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.assign_note{
+    width: 90%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.assign_note_icon{
+    transform: scale(1.9);
+    padding: 2px;
+    background-color: transparent;
+}
+
+.assign_note_button{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: large;
+    text-align: left;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.assign_note_button:hover{
+    cursor: pointer;
+}
+
+.add_assign_note{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.add_assign_note input{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+
+.add_assign_note textarea{
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.add_assign_note button{
+    width: 50%;
+    height: auto;
+    background-color: rgb(162, 203, 100);
+}
+
+.add_assign_note button:hover{
+    background-color: rgb(119, 191, 11);
+    cursor: pointer;
+}
+
+.classwork_card{
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+.classwork_card_link{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    font-size: 20px;
+    border-bottom-width: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color:rgba(135, 207, 235, 0.985);
+}
+
+.classwork_card_message{
+    width: 100%;
+    height: auto;
+    max-height: 100px;
+    padding: 2% 6% 2% 6%;
+    font-size: 18px;
+    overflow:  scroll;
+    border: 1px solid wheat;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+.classwork_card_message::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* member css */
+
+.members{
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.member{
+    width: 90%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.membername{
+    width: 100%;
+    height: auto;
+    border: none;
+    font-size: 25px;
+    padding: 5px;
+    padding-left: 10px;
+    background-color: transparent;
+}
+
+.memberImage{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

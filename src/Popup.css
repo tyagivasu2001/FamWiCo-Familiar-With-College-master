@@ -1,0 +1,139 @@
+/* Popup style */
+.popup-box {
+    position: fixed;
+    background: #00000050;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }
+  
+  .box {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    height: auto;
+    max-height: 70vh;
+    margin-top: calc(100vh - 85vh - 20px);
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    border: 1px solid #999;
+    overflow: auto;
+  }
+  
+  .close-icon {
+    content: 'x';
+    cursor: pointer;
+    position: fixed;
+    right: calc(15% - 30px);
+    top: calc(100vh - 85vh - 33px);
+    background: #ededed;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    font-size: 20px;
+  }
+
+  .join-popup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .join-popup text{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .join-popup input{
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    text-align: center;
+    padding: 5px;
+    background-color: #fff;
+  }
+
+  .join-popup input:hover{
+    cursor: default;
+  }
+
+  .join-popup button{
+    padding: 5px;
+    margin: 10px;
+    width: 20%;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color:aliceblue;
+    overflow: hidden;
+  }
+
+  .join-popup button:hover{
+    background-color: yellowgreen;
+    cursor: pointer;
+  }
+
+
+
+  .create-popup{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .create-popup input{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+    font-weight: normal;
+    background-color: #fff;
+  }
+
+  .create-popup input:hover{
+    cursor: default;
+    background-color: rgb(235, 231, 231);
+  }
+
+  .create-popup button{
+    padding: 5px;
+    margin-top: 10px;
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    background-color: aliceblue;
+  }
+
+  .create-popup button:hover{
+    background-color: yellowgreen;
+    cursor: pointer;
+  }
+
+  .classcode{
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .classcode input{
+    min-width: 60%;
+    margin: 5px;
+    text-align: center;
+    border: none;
+    background-color: white;
+  }
+
+  .classcode input:hover{
+    cursor: default;
+    background-color: white;
+  }

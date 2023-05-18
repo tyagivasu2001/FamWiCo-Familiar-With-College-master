@@ -1,0 +1,43 @@
+.edit_image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.edit_image_main{
+    width: 100%;
+    height: auto;
+    max-width: 768px;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.edit_image_main input{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+.edit_image_main button{
+    width: 30%;
+    height: auto;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(219, 247, 162);
+}
+
+.edit_image_main button:hover{
+    cursor: pointer;
+    background-color: rgb(131, 227, 57);
+}

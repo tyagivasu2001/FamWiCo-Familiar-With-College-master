@@ -1,0 +1,277 @@
+.note{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.note_main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: auto;
+    background-color: rgb(210, 246, 246);
+}
+
+.file{
+    transform: scale(2);
+    margin-top: 22%;
+    margin-bottom: 20%;
+    height: auto;
+    background-color: transparent;
+    color:rgb(250, 171, 145);
+}
+
+.nofile{
+    transform: scale(2);
+    margin-top: 20%;
+    margin-bottom: 20%;
+    height: auto;
+    background-color: transparent;
+    color:rgb(250, 171, 145);
+}
+
+@media (min-width:200px){
+    .nofile{
+        transform: scale(4);
+    }
+    .file{
+        transform: scale(4);
+    }
+}
+
+@media (min-width:400px){
+    .nofile{
+        transform: scale(6);
+    }
+    .file{
+        transform: scale(6);
+    }
+}
+
+@media (min-width:500px){
+    .nofile{
+        transform: scale(8);
+    }
+    .file{
+        transform: scale(8);
+    }
+}
+
+.uploadButton{
+    padding: 5px;
+    max-width: 100px;
+    font-size: medium;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+.choose{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 20px;
+}
+
+.uploadButton:hover{
+    background-color: rgb(58, 185, 58);
+}
+
+
+
+
+/* NotePost css */
+
+
+.NotePost{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 6px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addNote{
+    margin: 2px;
+    padding: 10px;
+    padding-left: 15px;
+    width: 100%;
+    height: auto;
+    min-height: 60px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.addNoteIcon{
+    background-color: transparent;
+    transform: scale(2);
+    margin-right: 10px;
+}
+
+.addNoteNav{
+    background-color: transparent;
+    padding: 10px;
+    font-size: medium;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+}
+
+.NotePost_main{
+    margin: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.NotePost_owner_info{
+    width: 100%;
+    max-height: fit-content;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 5px;
+    padding-left: 8px;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(166, 205, 240);
+}
+
+.NotePost_owner_img{
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+.NotePost_owner_name{
+    padding-left: 7px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.note_msg{
+    width: 95%;
+    height: auto;
+    padding: 5px;
+    margin: 2px;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: auto;
+    scrollbar-width: 2px;
+    background-color:white;
+    max-height: 70px;
+}
+
+.note_msg::-webkit-scrollbar {
+    display: none;
+}
+
+.NotePost_img{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: transparent;
+}
+
+.npfile{
+    transform: scale(3);
+    background-color: transparent;
+}
+
+.npfile_name{
+    margin-left: 30px;
+    width: 80%;
+    height: fit-content;
+    border: none;
+    text-decoration: underline;
+    background-color: transparent;
+    white-space: initial;
+    word-wrap: break-word;
+}
+
+.NotePost_activity{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.NotePost_activity input{
+    width: 100%;
+    max-width: fit-content;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 0px 8px 0px 8px;
+    border-radius: 5px;
+}
+
+.NotePost_activity input:hover{
+    background-color: rgb(130, 182, 25);
+    cursor: pointer;
+}
+
+@media (max-width:220px) {
+    .NotePost_activity{
+        flex-direction: column;
+        font-size: small;
+    }
+}
+
+@media (min-width:768px) {
+    .NotePost_main{
+        width: 100%;
+        max-width: 600px;
+        max-height: 500px;
+    }
+    .NotePost_img{
+
+        max-width: 580px;
+        max-height: 400px;
+        height: auto;
+        margin-left: 30px;
+    }
+    .addNote{
+        width: 600px;
+    }
+}

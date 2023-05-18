@@ -1,0 +1,130 @@
+.comments_main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comments{
+    width: 100%;
+    height: auto;
+    max-width: 768px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.comments_add{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.comments_add input{
+    width: 95%;
+    height: auto;
+    padding: 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    background-color: white;
+}
+
+.sendarrow{
+    transform: scale(1.5);
+    background-color: rgb(138, 241, 82);
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.sendarrow:hover{
+    cursor: pointer;
+}
+
+.comments_show{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.comments_show_user{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color:rgb(245, 252, 252)
+}
+
+.comments_show_user img{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+.comments_show_user img:hover{
+    cursor: pointer;
+}
+
+.user{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 25px;
+    border: none;
+    background-color:rgb(245, 252, 252);
+}
+
+.user:hover{
+    cursor: pointer;
+}
+
+.comment_div{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background-color:rgb(245, 252, 252);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.comment{
+    width: 100%;
+    height: auto;
+    max-height: 70px;
+    overflow: auto;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color:white;
+}
+
+.comment::-webkit-scrollbar{
+    display: none;
+}
